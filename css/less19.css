@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space {
+    justify-content: space-evenly;
+}
+
+.align {
+    align-items: center;
+}
+
+.max {
+    width: 100%;
+}
+
+.page {
+    max-width: 1920px;
+    width: 100%;
+}
+.header {
+    column-gap: 50px;
+    margin: 0 375px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    margin: 10px;
+}
+.num {
+    border: none;
+    background: none;
+}
+
+.header a {
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282828;
+}
+
+.header option {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282828;
+}
+
+.order {
+    border: none;
+    background: #E17F37;
+    width: 170px;
+    height: 42px;
+}
+
+.order a {
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bottom-links {
+    height: 56px;
+    background: #242425;
+}
+
+.bottom-links a {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #DFDFDF;
+    text-decoration: none;
+
+}
+
+.bottom-links ul {
+    list-style-type: none;
+    column-gap: 34px;
+}
+
+.flower {
+    padding: 98px 0px 176px 375px;;
+    background-image: url("/img/flower.png");
+    background-repeat: no-repeat;
+}
+
+.flower h1 {
+    width: 400px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 90%;
+    color: #FFFFFF;
+}
+
+.flower h4 {
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.middle {
+    padding-top: 80px;
+    background: #F7F8F9;
+    width: 100%;
+}
+
+.middle h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #282828;
+}
+
+.cards {
+    margin: 116px 405px 0 405px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cards div {
+    width: 510px;
+    height: 100%;
+}
+.cards img {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.cards h3 {
+    width: 340px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282828;
+    margin: 15px;
+    border-bottom: 1px #E17F37 solid;
+}
+
+.cards p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282828;
+    margin: 15px;
+
+}
+
+.gift {
+    justify-content: space-evenly;
+    margin: 80px auto;
+    width: 1170px;
+    height: 353px;
+    background-image: url("/img/mramor.png");
+}
+
+.gift-text {
+    width: 495px;
+    height: 200px;
+}
+
+.gift h1 {
+    width: 495px;
+    margin: 30px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #DFDFDF;
+}
+
+.gift a {
+    padding: 16px;
+    margin: 30px;
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 54px;
+    background: #E17F37;
+}
+
+.gift-text div {
+    margin-top: 70px;
+}
+
+
+
+.mramor-s {
+    background-repeat: no-repeat;
+    background-image: url("/img/mramor-s.png");
+    width: 370px;
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mramor-s img {
+    margin: 10px;
+}
+
+.how-to {
+    position: relative;
+    padding-top: 80px;
+    width: 100%;
+    height: 393px;
+    background-image: url("/img/mramor-white.png");
+}
+
+.how-to h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.how-to-text p {
+    width: 200px;
+    margin: 25px;
+}
+
+
+                        /*end of work */
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.scroll {
+    max-height: 300px;
+    overflow-x: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/*.how-to-line ::after {*/
+/*    content: "";*/
+/*    background-color: lightgray;*/
+/*    position: absolute;*/
+/*    width: 5px;*/
+/*    left: 33px;*/
+/*    top: 0;*/
+/*    bottom: 10px;*/
+/*    z-index: -1;*/
+/*}*/
+
+
+
+
+/*@media screen and (min-width: 320px) {*/
+/*    .header {*/
+/*        flex-wrap: wrap;*/
+/*        margin: 0 15px;*/
+/*    }*/
+
+/*}*/
+
