@@ -261,45 +261,297 @@
     margin: 25px;
 }
 
+.title {
+    text-align: center;
+    margin: 80px;
+}
+
+.stones {
+    column-gap: 2rem;
+    margin: 80px;
+}
+
+.stone {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #E4E4E4;
+    width: 270px;
+    height: 509px;
+}
+
+.stone img {
+    margin: 20px;
+    width: 230px;
+    height: 309px;
+}
+
+.stone h3 {
+    margin-top: 10px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #282828;
+}
+
+.p-1 {
+    margin: 10px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: #BEBEBE;
+}
+
+.p-2 {
+    margin: 10px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #282828;
+}
+
+.stones a {
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+   color: #282828;
+}
+
+.more {
+    margin: 10px;
+    border: 1px solid #E17F37;
+    width: 230px;
+    height: 42px;
+}
+
+.works {
+    column-gap: 2rem;
+    width: 100%;
+    height: 674px;
+    background-image: url(/img/mramor-white.png);
+}
+
+.step {
+    width: 370px;
+    height: auto;
+}
+.step h3 {
+    margin: 1rem;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282828;
+}
+.left div {
+    margin: 100px;
+}
+
+.memo {
+
+    width: 100%;
+    background: #F7F8F9;
+}
+.memory {
+    margin-top: 80px;
+    gap: 2rem;
+
+}
+.option {
+    margin-top: 80px;
+    width: 570px;
+    height: auto;
+}
+
+.img-one {
+    position: absolute;
+}
+
+.option h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+     color: #282828;
+}
+.option p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #282828;
+    margin-top: 24px;
+}
+
+.bottom {
+    column-gap: 100px;
+    margin-top: 200px;
+    background: #242425;
+    width: 1920px;
+    height: 700px;
+}
+
+.bottom-option {
+    width: 570px;
+    height: auto;
+}
+.bottom-option h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #DFDFDF;
+}
+
+.bottom-option p {
+    margin-top: 24px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #DFDFDF;
+}
+
+.bottom h3 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #DFDFDF;
+    margin-top: 2rem;
+    width: 500px;
+}
+
+
+.foot {
+
+    background-image: url(/img/mramor.png);
+}
+
+.site a {
+    margin: 30px;
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #DFDFDF;
+}
+
+.footer {
+    border-bottom: 1px #AAAAAA;
+}
+.footer ul {
+    gap: 3rem;
+    padding: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a {
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 126%;
+    color: #DFDFDF;
+}
+
+.contact {
+    column-gap: 100px;
+}
+
+.contact p {
+    margin: 1rem;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #DFDFDF;
+
+}
+
+.info {
+    margin: 50px;
+}
+
+.info h2 {
+    margin: 1rem;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    letter-spacing: 0.06em;
+    color: #DFDFDF;
+    width: 569px;
+}
+
+.info h5 {
+    margin: 1rem;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 126%;
+    color: #DFDFDF;
+
+}
+.side {
+    width: 470px;
+}
+.info a {
+    padding: 15px;
+    background: #E17F37;
+    margin-left: 2rem;
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.order-taxi {
+    margin: 2rem;
+}
+
 
                         /*end of work */
+/*.swiper-container {*/
+/*    width: 640px;*/
+/*    height: 380px;*/
+/*}*/
 
-
-
-.swiper-container {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-.scroll {
-    max-height: 300px;
-    overflow-x: none;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
+/*.swiper-slide {*/
+/*    color: #fff;*/
+/*    font-weight: bold;*/
+/*    background: #000;*/
+/*}*/
 
 /*.how-to-line ::after {*/
 /*    content: "";*/
