@@ -1,9 +1,22 @@
-$(document).ready(function() {
-// Swiper: Slider
-    new Swiper('.swiper-container', {
-        loop: true,
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-    });
+new Swiper('.swiper-container', {
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 30,gi
+    loop: true,
+    loopedSlides: 7,
+    watchSlidesVisibility: true,
+    breakpoints: {
+
+        1028: {
+            slidesPerView:3,
+            spaceBetween: 30,
+        },
+        600: {
+            slidesPerView:1,
+            spaceBetween: 5,
+        }
+    }
 });
+

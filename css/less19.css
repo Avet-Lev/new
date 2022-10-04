@@ -317,7 +317,7 @@
     color: #282828;
 }
 
-.stones a {
+.stone a {
     text-decoration: none;
     font-family: 'Exo 2';
     font-style: normal;
@@ -326,6 +326,11 @@
     line-height: 19px;
     text-align: center;
    color: #282828;
+}
+
+.popular {
+    text-align: center;
+    padding: 80px;
 }
 
 .more {
@@ -401,7 +406,7 @@
     column-gap: 100px;
     margin-top: 200px;
     background: #242425;
-    width: 1920px;
+    width: 100%;
     height: 700px;
 }
 
@@ -541,37 +546,216 @@
 }
 
 
-                        /*end of work */
-/*.swiper-container {*/
-/*    width: 640px;*/
-/*    height: 380px;*/
-/*}*/
+.container{
+    margin-top: 80px;
+    height: 100%;
+    padding: 0 4em;
+    overflow: hidden;
+}
+.slider-wrap {
+    overflow: hidden;
+    height: 100%;
+    width: 312px;
+}
+.swiper-container {
+    width: 1400px;
+    height: 100%;
+}
+.swiper-slide {
+    width: 312px;
+    /*opacity: 0.25;*/
+}
+.swiper-container {
 
-/*.swiper-slide {*/
-/*    color: #fff;*/
-/*    font-weight: bold;*/
-/*    background: #000;*/
-/*}*/
-
-/*.how-to-line ::after {*/
-/*    content: "";*/
-/*    background-color: lightgray;*/
-/*    position: absolute;*/
-/*    width: 5px;*/
-/*    left: 33px;*/
-/*    top: 0;*/
-/*    bottom: 10px;*/
-/*    z-index: -1;*/
-/*}*/
+}
+.swiper-slide-visible {
+    width: 300px;
+    opacity: 1;
+}
 
 
+@media screen and (min-width: 320px) {
+
+    .header {
+        flex-wrap: wrap;
+        margin: auto 40px;
+        height: 100%;
+
+}
+
+    .bottom-links {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .bottom-links ul {
+        flex-wrap: wrap;
+    }
+
+    .flower {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .cards {
+        margin: 0px;
+    }
+    .gift {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .gift-text a {
+        text-align: center;
+    }
+
+    .mramor-s {
+        margin: 30px;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .works {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .works img {
+        margin: 1rem;
+
+    }
+
+    .install {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .memo {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        margin: 15px;
+    }
+    .memory {
+        flex-wrap: wrap;
+    }
+
+    .bottom {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .bottom img {
+        margin: 1rem;
+    }
+
+    .bottom-option , .bottom h3 {
+        margin: 1rem;
+    }
+
+    .footer ul {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+    .info {
+        flex-wrap: wrap;
+    }
+
+}
 
 
-/*@media screen and (min-width: 320px) {*/
-/*    .header {*/
-/*        flex-wrap: wrap;*/
-/*        margin: 0 15px;*/
-/*    }*/
+@media screen and (min-width: 1920px) {
 
-/*}*/
+    .header {
+        margin: 0 375px;
+    }
+    .bottom-links {
+        height: 56px;
+    }
+    .flower {
+        padding: 98px 0px 176px 375px;
+        text-align: start;
+    }
+    .cards {
+        margin: 116px 405px 0 405px;
+    }
+    .gift {
+        margin: 80px auto;
+        width: 1170px;
+        height: 353px;
+    }
+    .works {
+        height: 674px;
+    }
+    .memo {
+        height: 100%;
+        margin: 1rem;
+    }
 
+}
+
+@media screen and (min-width: 1200px) {
+
+    .header {
+        margin: 0 375px;
+    }
+    .bottom-links {
+        height: 56px;
+    }
+    .flower {
+        padding: 98px 0px 176px 375px;
+        text-align: start;
+    }
+    .cards {
+        margin: 116px 405px 0 405px;
+    }
+    .gift {
+        margin: 80px auto;
+        width: 1170px;
+        height: 353px;
+    }
+    .works {
+        height: 674px;
+    }
+    .memo {
+        height: 100%;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .header {
+        margin: 0 3rem;
+    }
+    .bottom-links {
+        height: 56px;
+    }
+    .flower {
+        padding: 98px 0px 176px 375px;
+        text-align: start;
+    }
+    .cards {
+        margin: 116px 405px 0 405px;
+    }
+    .gift {
+        margin: 80px auto;
+        width: 1170px;
+        height: 353px;
+    }
+    .works {
+        height: 674px;
+    }
+    .memo {
+        height: 100%;
+        margin: 1rem;
+    }
+
+}
