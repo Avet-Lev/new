@@ -3,7 +3,7 @@ new Swiper('.swiper-container', {
     prevButton: '.swiper-button-prev',
     slidesPerView: 3,
     centeredSlides: true,
-    spaceBetween: 30,gi
+    spaceBetween: 30,
     loop: true,
     loopedSlides: 7,
     watchSlidesVisibility: true,
@@ -19,4 +19,7 @@ new Swiper('.swiper-container', {
         }
     }
 });
+
+const d = new Date();
+document.getElementById("date").innerHTML = d;
 
